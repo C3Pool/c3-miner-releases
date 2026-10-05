@@ -8,7 +8,9 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 | 版本 Version | 系统 System | 下载 Download | SHA-256 |
 |---|---|---|---|
-| 1.0.0 | Windows 10 / 11（64 位 / 64-bit） | [C3Miner-1.0.0-setup.exe](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.0-setup.exe) | `01adea168494ca113e52a0513d4282501a508c61db1ca60a01ef89df6eddf00c` |
+| 1.0.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.0-setup.exe) | `01adea168494ca113e52a0513d4282501a508c61db1ca60a01ef89df6eddf00c` |
+
+中国大陆及亚洲用户建议使用亚洲镜像，两个链接的文件完全相同。Users in Asia should use the Asia mirror; both links serve the same file.
 
 所有版本的校验值见 [SHA256SUMS](SHA256SUMS)。Checksums for all versions are in [SHA256SUMS](SHA256SUMS).
 
