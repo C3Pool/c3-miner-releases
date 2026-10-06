@@ -8,10 +8,13 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 | 版本 Version | 系统 System | 下载 Download | SHA-256 |
 |---|---|---|---|
-| **1.0.1**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.1-setup.exe) | `f767f65f8b4b40d16e4a1cdcf16dec5cd862aeb71463c7f839910e0db528528e` |
-| 1.0.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.0-setup.exe) | `01adea168494ca113e52a0513d4282501a508c61db1ca60a01ef89df6eddf00c` |
+| **1.0.2**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.2/C3Miner-1.0.2-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.2-setup.exe) | `bfd69a40f97acee4d4e2a8b521085295ff46a6057b05e0216c5a0af0cdff013f` |
+| 1.0.1 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.1/C3Miner-1.0.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.1-setup.exe) | `f767f65f8b4b40d16e4a1cdcf16dec5cd862aeb71463c7f839910e0db528528e` |
+| 1.0.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.0/C3Miner-1.0.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.0-setup.exe) | `01adea168494ca113e52a0513d4282501a508c61db1ca60a01ef89df6eddf00c` |
 
 中国大陆及亚洲用户建议使用亚洲镜像，两个链接的文件完全相同。Users in Asia should use the Asia mirror; both links serve the same file.
+
+所有版本与更新说明见 [Releases](https://github.com/C3Pool/c3-miner-releases/releases)。All versions and release notes: [Releases](https://github.com/C3Pool/c3-miner-releases/releases).
 
 所有版本的校验值见 [SHA256SUMS](SHA256SUMS)。Checksums for all versions are in [SHA256SUMS](SHA256SUMS).
 
@@ -50,6 +53,11 @@ Settings include a CPU usage limit, pausing while you use the computer (resumes 
 To uninstall, remove C3 Miner in Windows Settings → Apps. The sign-in task is removed too; your payout address and settings are kept for a reinstall.
 
 ## 更新记录 / Changelog
+
+### 1.0.2
+
+- 升级更顺畅：覆盖安装新版本时不再弹出旧版卸载窗口，也不再询问是否关闭正在运行的 C3 Miner，设置和开机启动全部保留。
+- Smoother upgrades: installing a new version no longer opens the old uninstaller or asks to close the running C3 Miner; settings and start-at-sign-in are kept.
 
 ### 1.0.1
 
