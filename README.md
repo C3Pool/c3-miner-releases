@@ -8,6 +8,7 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 | 版本 Version | 系统 System | 下载 Download | SHA-256 |
 |---|---|---|---|
+| **1.0.1**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.1-setup.exe) | `f767f65f8b4b40d16e4a1cdcf16dec5cd862aeb71463c7f839910e0db528528e` |
 | 1.0.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/raw/main/windows/C3Miner-1.0.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.0-setup.exe) | `01adea168494ca113e52a0513d4282501a508c61db1ca60a01ef89df6eddf00c` |
 
 中国大陆及亚洲用户建议使用亚洲镜像，两个链接的文件完全相同。Users in Asia should use the Asia mirror; both links serve the same file.
@@ -47,6 +48,13 @@ Settings include a CPU usage limit, pausing while you use the computer (resumes 
 To uninstall, remove C3 Miner in Windows Settings → Apps. The sign-in task is removed too; your payout address and settings are kept for a reinstall.
 
 ## 更新记录 / Changelog
+
+### 1.0.1
+
+- 「关于」页加入软件介绍、官网（c3pool.com / c3pool.org）与社区链接（X、Telegram、Discord、GitHub、邮箱）。
+- 挖矿模式新增「混合挖矿」（CPU 与显卡同时挖矿），与显卡挖矿一起即将推出。
+- About page: introduction, websites (c3pool.com / c3pool.org) and community links (X, Telegram, Discord, GitHub, email).
+- New "Hybrid mining" mode (CPU and GPU together), coming soon together with GPU mining.
 
 ### 1.0.0
 
