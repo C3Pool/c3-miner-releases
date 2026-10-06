@@ -17,13 +17,14 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 ## 安装说明
 
-1. **Windows 提示「Windows 已保护你的电脑」**：安装包暂未做代码签名，点「更多信息」→「仍要运行」即可。
-2. **需要管理员权限**：启动时会弹出一次权限确认。挖矿程序需要它来开启大页内存和 MSR 优化，否则算力明显偏低。
-3. **把以下两个目录加入杀毒软件白名单（信任区 / 排除项）**：挖矿程序常被杀毒软件（如 360、火绒、电脑管家、Microsoft Defender）误报并删除。
+1. **浏览器提示「通常不会下载 C3Miner-…-setup.exe」**（Edge）：在下载列表中右键该文件 →「保留」→ 展开「删除」旁的箭头 →「仍然保留」。
+2. **Windows 提示「Windows 已保护你的电脑」**：安装包暂未做代码签名，点「更多信息」→「仍要运行」即可。
+3. **需要管理员权限**：启动时会弹出一次权限确认。挖矿程序需要它来开启大页内存和 MSR 优化，否则算力明显偏低。
+4. **把以下两个目录加入杀毒软件白名单（信任区 / 排除项）**：挖矿程序常被杀毒软件（如 360、火绒、电脑管家、Microsoft Defender）误报并删除。
    - `C:\Program Files\C3 Miner`
    - `%LOCALAPPDATA%\com.c3pool.miner\miners`
-4. 首次开始挖矿时，挖矿程序会先测试各算法性能，约 3 分钟，之后自动开始挖矿。
-5. 首次启用大页内存后需要**重启一次电脑**，算力可提升约 50%。
+5. 首次开始挖矿时，挖矿程序会先测试各算法性能，约 3 分钟，之后自动开始挖矿。
+6. 首次启用大页内存后需要**重启一次电脑**，算力可提升约 50%。
 
 支持的收款地址：XMR、USDT-TRC20、USDT-BEP20 / Polygon（0x 地址，需选择结算链）、USDT-SPL（Solana）。
 
@@ -33,13 +34,14 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 ## Installation notes
 
-1. **"Windows protected your PC"**: the installer is not code-signed yet. Click "More info" → "Run anyway".
-2. **Administrator rights**: you confirm once at start. The miner needs them for huge pages and MSR tuning; without them the hashrate is much lower.
-3. **Add these two folders to your antivirus allow list (exclusions)**. Antivirus software (including Microsoft Defender) often flags and deletes mining programs by mistake.
+1. **The browser says the installer "isn't commonly downloaded"** (Edge): right-click it in the downloads list → "Keep" → open the arrow next to "Delete" → "Keep anyway".
+2. **"Windows protected your PC"**: the installer is not code-signed yet. Click "More info" → "Run anyway".
+3. **Administrator rights**: you confirm once at start. The miner needs them for huge pages and MSR tuning; without them the hashrate is much lower.
+4. **Add these two folders to your antivirus allow list (exclusions)**. Antivirus software (including Microsoft Defender) often flags and deletes mining programs by mistake.
    - `C:\Program Files\C3 Miner`
    - `%LOCALAPPDATA%\com.c3pool.miner\miners`
-4. On the first start the miner measures algorithm performance for about 3 minutes, then starts mining automatically.
-5. After huge pages are enabled for the first time, **restart the computer once** for about 50% more hashrate.
+5. On the first start the miner measures algorithm performance for about 3 minutes, then starts mining automatically.
+6. After huge pages are enabled for the first time, **restart the computer once** for about 50% more hashrate.
 
 Supported payout addresses: XMR, USDT-TRC20, USDT-BEP20 / Polygon (0x address, choose a settlement chain), USDT-SPL (Solana).
 
