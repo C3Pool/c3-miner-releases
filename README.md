@@ -1,14 +1,15 @@
 # C3 Miner
 
-C3Pool 官方桌面挖矿工具：填入收款地址和矿工名称，一键开始 CPU 挖矿。挖矿程序（xmrig-C3）自动下载并校验，在后台运行，显示算力、日志、硬件信息和矿池收益。
+C3Pool 官方桌面挖矿工具：填入收款地址和矿工名称，一键开始 CPU / 显卡挖矿。挖矿程序（xmrig-C3）自动下载并校验，在后台运行，显示算力、日志、硬件信息和矿池收益。
 
-C3Pool's official desktop miner. Enter your payout address and a worker name, then start CPU mining with one click. The mining program (xmrig-C3) is downloaded and verified automatically, runs in the background, and the app shows hashrate, logs, hardware info and pool earnings.
+C3Pool's official desktop miner. Enter your payout address and a worker name, then start CPU or GPU mining with one click. The mining program (xmrig-C3) is downloaded and verified automatically, runs in the background, and the app shows hashrate, logs, hardware info and pool earnings.
 
 ## 下载 / Download
 
 | 版本 Version | 系统 System | 下载 Download | SHA-256 |
 |---|---|---|---|
-| **1.1.0**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.1.0/C3Miner-1.1.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.1.0-setup.exe) | `19cbe61bb16e3e0ec8ff067e40b0ffe782aa0ea79232203db94b0c12210f9d4d` |
+| **1.2.0**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.2.0/C3Miner-1.2.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.2.0-setup.exe) | `d8fc18a0227b82be4174c13ce001328f515cf24825bc3107189dc3ab8eba19e3` |
+| 1.1.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.1.0/C3Miner-1.1.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.1.0-setup.exe) | `19cbe61bb16e3e0ec8ff067e40b0ffe782aa0ea79232203db94b0c12210f9d4d` |
 | 1.0.3 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.3/C3Miner-1.0.3-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.3-setup.exe) | `3ab519a5ad5da52990844d1a793ad9090d0344139a58208f8a78902e566f5083` |
 | 1.0.2 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.2/C3Miner-1.0.2-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.2-setup.exe) | `bfd69a40f97acee4d4e2a8b521085295ff46a6057b05e0216c5a0af0cdff013f` |
 | 1.0.1 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.1/C3Miner-1.0.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.1-setup.exe) | `f767f65f8b4b40d16e4a1cdcf16dec5cd862aeb71463c7f839910e0db528528e` |
@@ -55,6 +56,19 @@ Settings include a CPU usage limit, pausing while you use the computer (resumes 
 To uninstall, remove C3 Miner in Windows Settings → Apps. The sign-in task is removed too; your payout address and settings are kept for a reinstall.
 
 ## 更新记录 / Changelog
+
+### 1.2.0
+
+- 全新窗口：去掉 Windows 原生边框，右上角为最小化 / 精简窗口 / 关闭三个按钮，窗口固定尺寸。
+- 精简窗口：一个圆形小窗，显示当前算力、平均算力和是否在挖矿。
+- 悬浮球（在设置中开启）：始终置顶的小圆球，轮播实时算力 / 平均算力 / 今日收益（右键选择显示内容）；单击打开主窗口，可拖到任意位置并记住位置。
+- 在线更新：「关于」页可检查更新，一键自动下载、校验并安装新版本，装好后自动继续挖矿。
+- 仪表盘显示显卡矿工的矿池侧算力。
+- New window: no native Windows frame; minimize / compact / close buttons at the top right; fixed window size.
+- Compact window: a small round view with current and average hashrate and whether mining is running.
+- Floating orb (turn it on in Settings): a small always-on-top circle cycling through hashrate / average / today's earnings (right-click to choose); click it to open the main window; drag it anywhere and it stays there.
+- Online update: check for updates on the About page; one click downloads, verifies and installs the new version, then mining carries on.
+- The dashboard shows the GPU worker's hashrate as seen by the pool.
 
 ### 1.1.0
 
