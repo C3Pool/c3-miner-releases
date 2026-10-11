@@ -8,7 +8,8 @@ C3Pool's official desktop miner. Enter your payout address and a worker name, th
 
 | 版本 Version | 系统 System | 下载 Download | SHA-256 |
 |---|---|---|---|
-| **1.2.1**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.2.1/C3Miner-1.2.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.2.1-setup.exe) | `343791ca4379c15eebcec07e1013e696c3a61124a34bb0f67386d7cdf2ff97d4` |
+| **1.2.2**（最新 / latest） | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.2.2/C3Miner-1.2.2-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.2.2-setup.exe) | `36bbe7719c0a9b2b5e11d2075e89930176dac5307ab7bdf1b49d5195bd72b1e1` |
+| 1.2.1 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.2.1/C3Miner-1.2.1-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.2.1-setup.exe) | `343791ca4379c15eebcec07e1013e696c3a61124a34bb0f67386d7cdf2ff97d4` |
 | 1.2.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.2.0/C3Miner-1.2.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.2.0-setup.exe) | `d8fc18a0227b82be4174c13ce001328f515cf24825bc3107189dc3ab8eba19e3` |
 | 1.1.0 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.1.0/C3Miner-1.1.0-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.1.0-setup.exe) | `19cbe61bb16e3e0ec8ff067e40b0ffe782aa0ea79232203db94b0c12210f9d4d` |
 | 1.0.3 | Windows 10 / 11（64 位 / 64-bit） | [GitHub](https://github.com/C3Pool/c3-miner-releases/releases/download/v1.0.3/C3Miner-1.0.3-setup.exe) · [亚洲镜像 Asia mirror](https://download.c3pool.org/c3-miner-releases/C3Miner-1.0.3-setup.exe) | `3ab519a5ad5da52990844d1a793ad9090d0344139a58208f8a78902e566f5083` |
@@ -57,6 +58,11 @@ Settings include a CPU usage limit, pausing while you use the computer (resumes 
 To uninstall, remove C3 Miner in Windows Settings → Apps. The sign-in task is removed too; your payout address and settings are kept for a reinstall.
 
 ## 更新记录 / Changelog
+
+### 1.2.2
+
+- 悬浮球和任务栏托盘图标的右键菜单换成与主界面一致的样式：托盘菜单显示挖矿状态与当前算力，可直接开始 / 停止挖矿。
+- The right-click menus of the floating orb and the tray icon now match the app; the tray menu shows the mining status and hashrate and can start or stop mining.
 
 ### 1.2.1
 
